@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Football Data</title>
+      <title>El Mayoral</title>
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700" type="text/css">
     <link rel="shortcut icon" href="static/logo.png" />
@@ -41,14 +41,14 @@
          }
          /* Create an active/current tablink class */
          .tab button.active {
-         background-color: #ccc;
+         background-color: #ddd;
          color: black;
          }
          /* Style the tab content */
          .tabcontent {
          display: none;
          padding: 6px 12px;
-         border: 1px solid #ccc;
+         border: 1px solid #FFFFFF;
          border-top: none;
          }
          .boxhead a {
@@ -67,6 +67,55 @@
    <body>
       <header>
       <div class="container">
-         <h1><a href="index.html">Football Data</a></h1>
+         <h1><a href="index.html">El Mayoral</a></h1>
+          <ul class="nav nav-tabs list-inline">
+            <li class="active"><a data-toggle="tab" href="#home">Añadir becerro en nodriza</a></li>
+            <li><a data-toggle="tab" href="#notReady"></a></li>
+            <li><a data-toggle="tab" href="#notReady"></a></li>
+         </ul>
+         <div class="tab-content">              
+            <div id="home" class="tab-pane fade in active">
+                <h3>- Si han pasado 10 meses desde que registró su último becerro, El Mayoral le dejará añadir un nuevo becerro (puede revisar la imagen de la vaca Bonita)</h3>
+                <h3>- Si no han pasado 10 meses desde que registró su último becerro, El Mayoral le indicará la fecha en la que podrá añadir su nuevo becerro (puede revisar la imagen de la vaca Coletera)</h3>
+               <img src="static/AñadirBecerro.png" alt="Italian Trulli" width="350" height="700">
+               <img src="static/EsperarEsperarHastaFecha.png" alt="Italian Trulli" width="350" height="700">
+            </div>
+            <div id="notReady" class="tab-pane fade">
+               <h3>El Mayoral</h3>
+               <p>This page is not ready, we are building it</p>
+            </div>
+         </div>
+         <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+         </script>
+      </div>
+         <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+         </script>
+      </div>
    </body>
 </html>
