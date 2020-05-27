@@ -1,6 +1,4 @@
 # ElMayoral.github.io
 
 El Mayoral [webside](https://elmayoral.github.io/)
-<p align="center">
-  <iframe width="420" height="345" src="https://www.youtube.com/embed/QG0hTBB_YyY?autoplay=1"></iframe>
-</p>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/QG0hTBB_YyY/0.jpg)](https://www.youtube.com/watch?v=QG0hTBB_YyY)
