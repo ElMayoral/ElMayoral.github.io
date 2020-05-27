@@ -2,6 +2,7 @@
 
 El Mayoral [webside](https://elmayoral.github.io/)
 
-<p align="center">
-  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/QG0hTBB_YyY/0.jpg)](https://www.youtube.com/watch?v=QG0hTBB_YyY)
-</p>
+
+<div align="center">
+  <a href="https://img.youtube.com/vi/QG0hTBB_YyY/0.jpg)"><img src="https://img.youtube.com/vi/QG0hTBB_YyY/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
