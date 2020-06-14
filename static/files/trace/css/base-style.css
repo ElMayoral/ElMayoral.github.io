@@ -29,7 +29,7 @@ body, a, a:visited {
 }
 
 #footer, #footer a {
-    color: #a0a0a0;
+    color: #000;
 }
 
 #line-wrapping-toggle {
@@ -79,12 +79,12 @@ ul.tabLinks li {
 }
 
 ul.tabLinks li:hover {
-    background-color: #fafafa;
+    background-color: #000;
 }
 
 ul.tabLinks li.selected {
     background-color: #c5f0f5;
-    border-color: #c5f0f5;
+    border-color: #000;
 }
 
 ul.tabLinks a {
@@ -120,7 +120,7 @@ div.tab table {
 }
 
 div.tab th, div.tab table {
-    border-bottom: solid #d0d0d0 10px;
+    border-bottom: solid #000 10px;
 }
 
 div.tab th {
