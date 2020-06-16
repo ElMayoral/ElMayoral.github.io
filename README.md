@@ -32,3 +32,10 @@ alt="Puedes añadir el número del crotal con la cámara usando El Mayoral, app 
 alt="Puedes añadir el número del crotal con la cámara usando El Mayoral, app para registro de tu ganado." width="480" height="360" border="10" />
   </a>
 </p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=RAkdd17-tsw&t=1s
+" target="_blank"><img src="http://img.youtube.com/vi/Dg_0QZyHoZE/0.jpg" 
+alt="Puedes añadir el número del crotal con la cámara usando El Mayoral, app para registro de tu ganado." width="480" height="360" border="10" />
+  </a>
+</p>
