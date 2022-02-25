@@ -44,3 +44,4 @@ alt="Puedes añadir el número del crotal con la cámara usando El Mayoral, app 
 alt="Puedes añadir el número del crotal con la cámara usando El Mayoral, app para registro de tu ganado." width="480" height="360" border="10" />
   </a>
 </p>
+
